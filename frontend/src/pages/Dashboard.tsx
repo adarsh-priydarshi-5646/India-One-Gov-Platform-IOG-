@@ -50,15 +50,18 @@ export default function ImprovedDashboard() {
     { titleKey: 'services.fir', icon: <Security />, path: '/file-fir', color: '#EA580C' },
     { titleKey: 'services.corruption', icon: <Gavel />, path: '/corruption-report', color: '#B91C1C' },
     { titleKey: 'services.jobs', icon: <Work />, path: '/jobs', color: '#D97706' },
-    { titleKey: 'services.taxation', icon: <AccountBalance />, path: '/taxation', color: '#16A34A' },
-    { titleKey: 'services.legal', icon: <Gavel />, path: '/legal', color: '#0891B2' },
+    { titleKey: 'services.taxation', icon: <AccountBalance />, path: '/tax', color: '#16A34A' },
+    { titleKey: 'services.legal', icon: <Gavel />, path: '/services', color: '#0891B2' },
     { titleKey: 'services.education', icon: <School />, path: '/education', color: '#2563EB' },
     { titleKey: 'services.health', icon: <LocalHospital />, path: '/health', color: '#7C3AED' },
     { titleKey: 'services.business', icon: <Business />, path: '/business', color: '#DB2777' },
     { titleKey: 'services.transport', icon: <DirectionsCar />, path: '/transport', color: '#059669' },
     { titleKey: 'services.housing', icon: <Home />, path: '/housing', color: '#0284C7' },
-    { titleKey: 'services.telecom', icon: <Phone />, path: '/telecom', color: '#7C2D12' },
-    { titleKey: 'services.foreign', icon: <Public />, path: '/foreign', color: '#1E40AF' },
+    { title: 'Agriculture', icon: <Description />, path: '/agriculture', color: '#16A34A' },
+    { title: 'Social Welfare', icon: <Description />, path: '/social-welfare', color: '#EC4899' },
+    { title: 'Pension', icon: <AccountBalance />, path: '/pension', color: '#7C3AED' },
+    { title: 'All Schemes', icon: <Description />, path: '/all-schemes', color: '#0284C7' },
+    { title: 'Policies', icon: <Gavel />, path: '/policies', color: '#DC2626' },
   ];
 
   return (

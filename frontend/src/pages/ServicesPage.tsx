@@ -35,15 +35,18 @@ export default function ServicesPage() {
     { titleKey: 'services.fir', icon: <Security />, path: '/file-fir', color: '#EA580C', desc: 'Report crimes and file FIR online' },
     { titleKey: 'services.corruption', icon: <Report />, path: '/corruption-report', color: '#B91C1C', desc: 'Report corruption cases anonymously' },
     { titleKey: 'services.jobs', icon: <Work />, path: '/jobs', color: '#D97706', desc: 'Browse and apply for government jobs' },
-    { titleKey: 'services.taxation', icon: <AccountBalance />, path: '/taxation', color: '#16A34A', desc: 'Tax filing and payment services' },
-    { titleKey: 'services.legal', icon: <Gavel />, path: '/legal', color: '#0891B2', desc: 'Legal aid and court services' },
+    { title: 'Tax Services', icon: <AccountBalance />, path: '/tax', color: '#16A34A', desc: 'Income tax filing and GST services' },
+    { titleKey: 'services.legal', icon: <Gavel />, path: '/services', color: '#0891B2', desc: 'Legal aid and court services' },
     { titleKey: 'services.education', icon: <School />, path: '/education', color: '#2563EB', desc: 'Education services and scholarships' },
     { titleKey: 'services.health', icon: <LocalHospital />, path: '/health', color: '#7C3AED', desc: 'Healthcare and medical services' },
     { titleKey: 'services.business', icon: <Business />, path: '/business', color: '#DB2777', desc: 'Business registration and licenses' },
     { titleKey: 'services.transport', icon: <DirectionsCar />, path: '/transport', color: '#059669', desc: 'Transport and vehicle services' },
     { titleKey: 'services.housing', icon: <Home />, path: '/housing', color: '#0284C7', desc: 'Housing schemes and property services' },
-    { titleKey: 'services.telecom', icon: <Phone />, path: '/telecom', color: '#7C2D12', desc: 'Telecom and communication services' },
-    { titleKey: 'services.foreign', icon: <Public />, path: '/foreign', color: '#1E40AF', desc: 'Passport and visa services' },
+    { title: 'Agriculture', icon: <Description />, path: '/agriculture', color: '#16A34A', desc: 'Farmer welfare and agriculture schemes' },
+    { title: 'Social Welfare', icon: <Description />, path: '/social-welfare', color: '#EC4899', desc: 'Social security and welfare schemes' },
+    { title: 'Pension', icon: <AccountBalance />, path: '/pension', color: '#7C3AED', desc: 'Pension and retirement planning' },
+    { title: 'All Schemes', icon: <Description />, path: '/all-schemes', color: '#0284C7', desc: 'Browse all government schemes' },
+    { title: 'Policies', icon: <Gavel />, path: '/policies', color: '#DC2626', desc: 'Government policies and promises' },
   ];
 
   return (

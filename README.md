@@ -1,12 +1,13 @@
 # 🇮🇳 India One-Gov Platform (IOG)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
 [![React Version](https://img.shields.io/badge/react-18.2.0-blue)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/typescript-5.0.0-blue)](https://www.typescriptlang.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Open Source](https://img.shields.io/badge/Open%20Source-❤️-red)](https://github.com/adarsh-priydarshi-5646/India-One-Gov-Platform-IOG-)
+[![Made for India](https://img.shields.io/badge/Made%20for-India%20🇮🇳-orange)](https://github.com/adarsh-priydarshi-5646/India-One-Gov-Platform-IOG-)
 
-> A comprehensive unified e-governance platform for India, inspired by Chinese government portals. Built with modern technologies to provide seamless access to 30+ government schemes and 13+ services.
+> A comprehensive unified e-governance platform for India. Built with modern technologies to provide seamless access to 30+ government schemes and 16+ services. Empowering citizens with transparent, efficient, and accessible government services.
 
 ## 🌟 Live Demo
 
@@ -25,9 +26,11 @@
 - 📋 **30+ Real Government Schemes** - Ayushman Bharat, PM-KISAN, PMAY, etc.
 - 🏥 **25,000+ Government Hospitals** - State/District/Block-wise database
 - 🌐 **6 Indian Languages** - Hindi, English, Tamil, Telugu, Bengali, Marathi
-- 🎨 **Chinese Portal Design** - Clean, minimal, government-grade UI
+- 🎨 **Modern Government Portal Design** - Clean, minimal, professional UI
 - 🔒 **Production Ready** - CI/CD, Docker, Security scanning
 - 📱 **Fully Responsive** - Works on all devices
+- 🔐 **RBAC System** - Role-based access control for security
+- 💰 **Donation System** - Support platform development
 
 ## 🎯 Overview
 
@@ -151,60 +154,84 @@ npm run dev
 - ✅ File Upload Support
 - ✅ Location-based Services
 
-### Government Services
+### Government Services (16+)
 
-#### 1. Complaint Management
+#### 1. Complaint Management (Shikayat Nivaran)
 - File complaints with location tracking
 - Track complaint status
 - Location-based routing to authorities
 - Evidence upload support
 
-#### 2. FIR Management
+#### 2. FIR Management (Pratham Soochna Riport)
 - 3-step FIR filing process
 - Crime type categorization
 - Police station routing
 - Evidence management
 
-#### 3. Corruption Reporting
+#### 3. Corruption Reporting (Bhrashtachar Shikayat)
 - Anonymous reporting
 - Anti-Corruption Bureau routing
 - Secure evidence submission
 
-#### 4. Healthcare Services
+#### 4. Healthcare Services (Swasthya Seva)
 - 25,000+ government hospitals database
 - State/District/Block-wise search
 - Health schemes (Ayushman Bharat, PM-JAY, etc.)
 - Government promises tracking
 - Latest notifications
 
-#### 5. Education Services
+#### 5. Education Services (Shiksha Seva)
 - Scholarship portal
 - School admissions
 - Exam results
 - Online courses
 
-#### 6. Employment Services
+#### 6. Employment Services (Rozgar Seva)
 - Government job portal
 - Skill development programs
 - Application tracking
 
-#### 7. Transport Services
+#### 7. Transport Services (Parivahan Seva)
 - Driving license application
 - Vehicle registration
 - Traffic challan payment
 
-#### 8. Business Services
+#### 8. Business Services (Vyapar Seva)
 - Company registration
 - GST registration
 - Trade license
 - MSME registration
 
-#### 9. Housing Services
+#### 9. Housing Services (Awas Seva)
 - PM Awas Yojana
 - Property registration
 - Housing loan schemes
 
-#### 10. Government Policies Tracker
+#### 10. Agriculture Services (Krishi Seva)
+- PM-KISAN scheme
+- Crop insurance
+- Kisan Credit Card
+- MSP information
+
+#### 11. Social Welfare Services (Samajik Kalyan)
+- PM Jan Dhan Yojana
+- PM Ujjwala Yojana
+- Swachh Bharat Mission
+- Jal Jeevan Mission
+
+#### 12. Pension Services (Pension Seva)
+- Atal Pension Yojana
+- National Pension System
+- PM Shram Yogi Maandhan
+- EPF services
+
+#### 13. Tax Services (Kar Seva)
+- Income tax filing
+- GST registration
+- PAN card application
+- Tax calculator
+
+#### 14. Government Policies Tracker (Sarkar Niti)
 - 156 active policies
 - Promises tracking with completion %
 - Future plans (2024-2030)
@@ -325,16 +352,15 @@ PORT=3001
 20. Login Page
 21. Register Page
 
-## 🎨 Design
+## 🎨 Design Philosophy
 
-- Chinese Government Portal inspired design
-- Pure white background (#FFFFFF)
-- Chinese red primary color (#C8102E)
-- Blue secondary color (#003DA5)
-- 3-tier header (language bar + red header + blue navigation)
-- No sidebar navigation
-- Minimal border radius (1-2px)
-- Clean borders (#DDDDDD)
+- Modern government portal design
+- Pure white background (#FFFFFF) for clarity
+- Indian tricolor inspired - Red primary (#C8102E), Blue secondary (#003DA5)
+- 3-tier header (language bar + main header + navigation)
+- Clean, accessible interface
+- Minimal border radius (1-2px) for professional look
+- Consistent spacing and typography
 
 ## 🔒 Security
 
@@ -424,14 +450,7 @@ We love new ideas! When suggesting features:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-### What this means:
-- ✅ Commercial use allowed
-- ✅ Modification allowed
-- ✅ Distribution allowed
-- ✅ Private use allowed
-- ⚠️ Liability and warranty not provided
+This project is **open source** and available for public use. We encourage contributions from the community to make government services more accessible to all Indians.
 
 ## 👥 Contributors
 
@@ -482,9 +501,10 @@ Thanks to all contributors who have helped build this platform!
 ## 🙏 Acknowledgments
 
 - **Government of India** - For open data and scheme information
-- **Chinese Government Portals** - Design inspiration
+- **Digital India Initiative** - For inspiring digital transformation
 - **Open Source Community** - For amazing tools and libraries
 - **Contributors** - For making this project better
+- **Citizens of India** - For whom this platform is built
 
 ## ⭐ Star History
 

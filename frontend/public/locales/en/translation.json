@@ -96,7 +96,10 @@
     "firs": "FIRs",
     "jobs": "Jobs",
     "information": "Information",
-    "contact": "Contact"
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "logout": "Logout"
   },
   "complaints": {
     "title": "Complaints",

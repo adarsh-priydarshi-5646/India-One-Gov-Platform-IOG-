@@ -77,10 +77,10 @@ const theme = createTheme({
 });
 
 import ProtectedRoute from './components/ProtectedRoute';
-import ChineseLayout from './components/Layout/ChineseLayout';
+import MainLayout from './components/Layout/MainLayout';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
-import ImprovedDashboard from './pages/ImprovedDashboard';
+import Dashboard from './pages/Dashboard';
 import FileComplaintPage from './pages/FileComplaintPage';
 import ComplaintsListPage from './pages/ComplaintsListPage';
 import ComplaintDetailsPage from './pages/ComplaintDetailsPage';
@@ -99,6 +99,11 @@ import BusinessServicesPage from './pages/BusinessServicesPage';
 import HousingServicesPage from './pages/HousingServicesPage';
 import GovernmentPoliciesPage from './pages/GovernmentPoliciesPage';
 import AllSchemesPage from './pages/AllSchemesPage';
+import AgricultureServicesPage from './pages/AgricultureServicesPage';
+import SocialWelfareServicesPage from './pages/SocialWelfareServicesPage';
+import PensionServicesPage from './pages/PensionServicesPage';
+import TaxServicesPage from './pages/TaxServicesPage';
+import DonatePage from './pages/DonatePage';
 import ChatBot from './components/AIAssistant/ChatBot';
 import { Box } from '@mui/material';
 
@@ -117,11 +122,11 @@ function App() {
             <Route
               element={
                 <ProtectedRoute>
-                  <ChineseLayout />
+                  <MainLayout />
                 </ProtectedRoute>
               }
             >
-              <Route path="/dashboard" element={<ImprovedDashboard />} />
+              <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/admin" element={<AdminDashboard />} />
               <Route path="/officer" element={<OfficerDashboard />} />
               <Route path="/analytics" element={<AdminDashboard />} />
@@ -140,6 +145,11 @@ function App() {
               <Route path="/housing" element={<HousingServicesPage />} />
               <Route path="/policies" element={<GovernmentPoliciesPage />} />
               <Route path="/all-schemes" element={<AllSchemesPage />} />
+              <Route path="/agriculture" element={<AgricultureServicesPage />} />
+              <Route path="/social-welfare" element={<SocialWelfareServicesPage />} />
+              <Route path="/pension" element={<PensionServicesPage />} />
+              <Route path="/tax" element={<TaxServicesPage />} />
+              <Route path="/donate" element={<DonatePage />} />
               <Route path="/profile" element={<ProfilePage />} />
             </Route>
             
