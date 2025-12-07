@@ -31,6 +31,7 @@ export default function AgricultureServicesPage() {
       eligibility: 'All landholding farmers',
       icon: <LocalAtm />,
       color: '#16A34A',
+      website: 'https://pmkisan.gov.in/',
     },
     {
       name: 'PM Fasal Bima Yojana',
@@ -40,6 +41,7 @@ export default function AgricultureServicesPage() {
       premium: '1.5-5% of sum insured',
       icon: <Agriculture />,
       color: '#0284C7',
+      website: 'https://pmfby.gov.in/',
     },
     {
       name: 'Kisan Credit Card',
@@ -49,6 +51,7 @@ export default function AgricultureServicesPage() {
       interest: '4% per annum',
       icon: <LocalAtm />,
       color: '#EA580C',
+      website: 'https://www.india.gov.in/spotlight/kisan-credit-card-kcc',
     },
     {
       name: 'Soil Health Card',
@@ -57,6 +60,7 @@ export default function AgricultureServicesPage() {
       benefit: 'Optimize fertilizer use',
       icon: <Grass />,
       color: '#7C3AED',
+      website: 'https://soilhealth.dac.gov.in/',
     },
     {
       name: 'PM Krishi Sinchai Yojana',
@@ -65,6 +69,7 @@ export default function AgricultureServicesPage() {
       coverage: 'All states',
       icon: <WaterDrop />,
       color: '#0891B2',
+      website: 'https://pmksy.gov.in/',
     },
     {
       name: 'e-NAM',
@@ -73,6 +78,7 @@ export default function AgricultureServicesPage() {
       benefit: 'Better price discovery',
       icon: <TrendingUp />,
       color: '#DC2626',
+      website: 'https://www.enam.gov.in/',
     },
   ];
 
@@ -190,7 +196,11 @@ export default function AgricultureServicesPage() {
                       </Box>
                     )}
                   </Stack>
-                  <Button variant="contained" fullWidth sx={{ mt: 2 }}>Apply Now</Button>
+                  <Stack direction="row" spacing={1} sx={{ mt: 2 }}>
+                    <Button variant="contained" fullWidth onClick={() => window.open(scheme.website, '_blank')}>
+                      Visit Official Website
+                    </Button>
+                  </Stack>
                 </CardContent>
               </Card>
             </Grid>

@@ -49,6 +49,7 @@ export default function SocialWelfareServicesPage() {
           benefit: '₹2 Lakh accident insurance',
           icon: <AccountBalance />,
           color: '#16A34A',
+          website: 'https://pmjdy.gov.in/',
         },
         {
           name: 'PM Ujjwala Yojana',
@@ -57,6 +58,7 @@ export default function SocialWelfareServicesPage() {
           benefit: 'Free gas connection + ₹1,600 subsidy',
           icon: <LocalGasStation />,
           color: '#EA580C',
+          website: 'https://www.pmuy.gov.in/',
         },
       ],
     },
@@ -70,6 +72,7 @@ export default function SocialWelfareServicesPage() {
           benefit: 'Education support + awareness',
           icon: <ChildCare />,
           color: '#EC4899',
+          website: 'https://wcd.nic.in/bbbp-schemes',
         },
         {
           name: 'Pradhan Mantri Matru Vandana Yojana',
@@ -78,6 +81,7 @@ export default function SocialWelfareServicesPage() {
           beneficiaries: '1.5 Crore+',
           icon: <Diversity3 />,
           color: '#8B5CF6',
+          website: 'https://pmmvy.wcd.gov.in/',
         },
       ],
     },
@@ -91,6 +95,7 @@ export default function SocialWelfareServicesPage() {
           coverage: '100% ODF villages',
           icon: <WaterDrop />,
           color: '#0891B2',
+          website: 'https://swachhbharatmission.gov.in/',
         },
         {
           name: 'Jal Jeevan Mission',
@@ -99,6 +104,7 @@ export default function SocialWelfareServicesPage() {
           coverage: '14 Crore+ connected',
           icon: <WaterDrop />,
           color: '#0284C7',
+          website: 'https://jaljeevanmission.gov.in/',
         },
       ],
     },
@@ -112,6 +118,7 @@ export default function SocialWelfareServicesPage() {
           eligibility: '60+ years, BPL',
           icon: <Elderly />,
           color: '#7C3AED',
+          website: 'https://nsap.nic.in/',
         },
         {
           name: 'Senior Citizen Savings Scheme',
@@ -120,6 +127,7 @@ export default function SocialWelfareServicesPage() {
           maxDeposit: '₹30 Lakh',
           icon: <AccountBalance />,
           color: '#DC2626',
+          website: 'https://www.indiapost.gov.in/Financial/Pages/Content/Post-Office-Saving-Schemes.aspx',
         },
       ],
     },
@@ -222,7 +230,14 @@ export default function SocialWelfareServicesPage() {
                         </Box>
                       )}
                     </Stack>
-                    <Button variant="contained" fullWidth sx={{ mt: 2 }}>Check Eligibility</Button>
+                    <Button 
+                      variant="contained" 
+                      fullWidth 
+                      sx={{ mt: 2 }}
+                      onClick={() => window.open(scheme.website, '_blank')}
+                    >
+                      Visit Official Website
+                    </Button>
                   </CardContent>
                 </Card>
               </Grid>

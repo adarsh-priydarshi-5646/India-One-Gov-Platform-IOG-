@@ -34,6 +34,7 @@ export default function PensionServicesPage() {
       icon: <AccountBalance />,
       color: '#16A34A',
       features: ['Guaranteed pension', 'Government co-contribution', 'Nominee benefit'],
+      website: 'https://www.npscra.nsdl.co.in/scheme-details.php',
     },
     {
       name: 'National Pension System (NPS)',
@@ -45,6 +46,7 @@ export default function PensionServicesPage() {
       icon: <TrendingUp />,
       color: '#0284C7',
       features: ['Tax benefits u/s 80C', 'Market-linked returns', 'Flexible withdrawals'],
+      website: 'https://www.npscra.nsdl.co.in/',
     },
     {
       name: 'PM Shram Yogi Maandhan',
@@ -56,6 +58,7 @@ export default function PensionServicesPage() {
       icon: <Elderly />,
       color: '#EA580C',
       features: ['Fixed pension', 'Low contribution', 'Family pension'],
+      website: 'https://maandhan.in/',
     },
     {
       name: 'Employees Provident Fund (EPF)',
@@ -66,6 +69,7 @@ export default function PensionServicesPage() {
       icon: <AccountBalance />,
       color: '#7C3AED',
       features: ['Employer contribution', 'Tax-free interest', 'Loan facility'],
+      website: 'https://www.epfindia.gov.in/',
     },
   ];
 
@@ -259,7 +263,14 @@ export default function PensionServicesPage() {
                       ))}
                     </Stack>
                   </Box>
-                  <Button variant="contained" fullWidth sx={{ mt: 2 }}>Enroll Now</Button>
+                  <Button 
+                    variant="contained" 
+                    fullWidth 
+                    sx={{ mt: 2 }}
+                    onClick={() => window.open(scheme.website, '_blank')}
+                  >
+                    Visit Official Website
+                  </Button>
                 </CardContent>
               </Card>
             </Grid>

@@ -76,7 +76,7 @@
     "corruption": "भ्रष्टाचार रिपोर्ट करें",
     "jobs": "रोजगार",
     "documents": "दस्तावेज़",
-    "taxation": "कराधान",
+    "taxation": "कर सेवाएं",
     "legal": "कानूनी सेवाएं",
     "education": "शिक्षा",
     "health": "स्वास्थ्य सेवा",
@@ -84,7 +84,12 @@
     "transport": "परिवहन",
     "housing": "आवास",
     "telecom": "दूरसंचार",
-    "foreign": "विदेश मामले"
+    "foreign": "विदेश मामले",
+    "agriculture": "कृषि",
+    "socialWelfare": "समाजिक कल्याण",
+    "pension": "पेंशन",
+    "allSchemes": "सभी योजनाएं",
+    "policies": "नीतियां"
   },
   "header": {
     "subtitle": "भारत सरकार - एकीकृत सेवा पोर्टल"
@@ -96,7 +101,10 @@
     "firs": "एफआईआर",
     "jobs": "नौकरियां",
     "information": "जानकारी",
-    "contact": "संपर्क"
+    "contact": "संपर्क",
+    "dashboard": "डैशबोर्ड",
+    "profile": "प्रोफ़ाइल",
+    "logout": "लॉगआउट"
   },
   "complaints": {
     "title": "शिकायतें",

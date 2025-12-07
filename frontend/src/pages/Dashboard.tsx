@@ -108,8 +108,8 @@ export default function ImprovedDashboard() {
                     >
                       {React.cloneElement(service.icon, { sx: { fontSize: 32 } })}
                     </Box>
-                    <Typography variant="body2" fontWeight={500} sx={{ fontSize: '0.8125rem' }}>
-                      {t(service.titleKey)}
+                    <Typography variant="body2" fontWeight={500} sx={{ fontSize: '0.8125rem', lineHeight: 1.3 }}>
+                      {service.titleKey ? t(service.titleKey) : service.title}
                     </Typography>
                   </CardContent>
                 </Card>

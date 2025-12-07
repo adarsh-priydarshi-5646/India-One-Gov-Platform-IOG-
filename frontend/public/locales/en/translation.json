@@ -76,7 +76,7 @@
     "corruption": "Report Corruption",
     "jobs": "Employment",
     "documents": "Documents",
-    "taxation": "Taxation",
+    "taxation": "Tax Services",
     "legal": "Legal Services",
     "education": "Education",
     "health": "Healthcare",
@@ -84,7 +84,12 @@
     "transport": "Transport",
     "housing": "Housing",
     "telecom": "Telecom",
-    "foreign": "Foreign Affairs"
+    "foreign": "Foreign Affairs",
+    "agriculture": "Agriculture",
+    "socialWelfare": "Social Welfare",
+    "pension": "Pension",
+    "allSchemes": "All Schemes",
+    "policies": "Policies"
   },
   "header": {
     "subtitle": "Government of India - Unified Services Portal"

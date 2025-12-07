@@ -286,8 +286,13 @@ export default function TaxServicesPage() {
                       </Box>
                     )}
                   </Stack>
-                  <Button variant="contained" fullWidth sx={{ mt: 2 }} href={service.link} target="_blank">
-                    Access Service
+                  <Button 
+                    variant="contained" 
+                    fullWidth 
+                    sx={{ mt: 2 }} 
+                    onClick={() => window.open(service.link, '_blank')}
+                  >
+                    Visit Official Website
                   </Button>
                 </CardContent>
               </Card>
